@@ -7,17 +7,17 @@ Best Score를 appdata API로 구현했습니다.
  1. `appdata.createNameSpace`로 Best Scroe를 저장할 namespace 생성
 
         function createnamespace(){
-        var options={};
-        options.namespace="bestscore";
-        options.shareflag='N';
-        gigagenie.appdata.createNameSpace(options,function(result_cd,result_msg,extra){
+         var options={};
+         options.namespace="bestscore";
+         options.shareflag='N';
+         gigagenie.appdata.createNameSpace(options,function(result_cd,result_msg,extra){
                 if(result_cd===200){
                         console.log("Namespace creation is success.");
                 } else{
                         console.log("Namespace creation is fail.");                        
                 }
           });
-        };
+        }
 
  2. `appdata.setKeyData`로 Best Score 저장
  
