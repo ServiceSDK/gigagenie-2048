@@ -6,7 +6,6 @@ Best Score를 appdata API로 구현했습니다.
 
  1. `appdata.createNameSpace`로 Best Scroe를 저장할 namespace 생성
 
-        //4.4.1 createNameSpace
         function createnamespace(){
         var options={};
         options.namespace="bestscore";
