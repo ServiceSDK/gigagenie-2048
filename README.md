@@ -53,4 +53,4 @@ Best Score를 appdata API로 구현했습니다.
 
 ## License
 2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
-Using [gabrielecirulli/2048.](https://raw.githubusercontent.com/gabrielecirulli/2048)
+Using [gabrielecirulli/2048.](https://github.com/gabrielecirulli/2048)
